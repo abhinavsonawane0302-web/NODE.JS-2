@@ -123,7 +123,7 @@ app.patch("/api/todo/:id",(req , res) =>{
         if (!updatetodo) {
             return res.status(404).json({
                 success:false,
-                msg:"todo data not find !!!"
+                msg:"todo data not found !!!"
             })
         }
 
